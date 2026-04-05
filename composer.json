@@ -1,0 +1,28 @@
+{
+   "name": "kado/kado.translation",
+   "type": "library",
+   "description": "PHP translation library.",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Sweet Andi"
+      }
+   ],
+   "require": {
+      "php": ">=8.3",
+      "kado/kado.locale": "^1.0",
+      "kado/kado.io.vfs": "^1.0",
+      "psr/log": "~1.0",
+      "ext-json": "*",
+      "ext-simplexml": "*"
+   },
+   "require-dev": {
+      "phpunit/phpunit": "12.5.14",
+      "mockery/mockery": "1.6.12"
+   },
+   "autoload": {
+      "psr-4": {
+         "Kado\\Translation\\": "src/"
+      }
+   }
+}
